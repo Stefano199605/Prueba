@@ -118,7 +118,7 @@ namespace sistemaAlmacen
             this.btnIngresar.ForeColor = System.Drawing.SystemColors.Control;
             this.btnIngresar.Image = global::sistemaAlmacen.Properties.Resources.icons8_login_25__2_;
             this.btnIngresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresar.Location = new System.Drawing.Point(423, 202);
+            this.btnIngresar.Location = new System.Drawing.Point(423, 198);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.btnIngresar.Size = new System.Drawing.Size(115, 39);
@@ -220,7 +220,7 @@ namespace sistemaAlmacen
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-            this.Opacity = 0.92D;
+            this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
