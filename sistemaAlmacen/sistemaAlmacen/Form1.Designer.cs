@@ -112,6 +112,8 @@ namespace sistemaAlmacen
             // 
             this.btnIngresar.BackColor = System.Drawing.Color.SteelBlue;
             this.btnIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIngresar.FlatAppearance.BorderSize = 2;
+            this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.SystemColors.Control;
             this.btnIngresar.Image = global::sistemaAlmacen.Properties.Resources.icons8_login_25__2_;
@@ -131,6 +133,7 @@ namespace sistemaAlmacen
             this.button1.BackColor = System.Drawing.Color.SteelBlue;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Image = global::sistemaAlmacen.Properties.Resources.icons8_close_25__2_;
@@ -156,6 +159,9 @@ namespace sistemaAlmacen
             // 
             // btnDesconectar
             // 
+            this.btnDesconectar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Yellow;
+            this.btnDesconectar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnDesconectar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDesconectar.Location = new System.Drawing.Point(438, 62);
             this.btnDesconectar.Name = "btnDesconectar";
             this.btnDesconectar.Size = new System.Drawing.Size(84, 23);
@@ -169,6 +175,7 @@ namespace sistemaAlmacen
             this.button2.BackColor = System.Drawing.Color.SteelBlue;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Image = global::sistemaAlmacen.Properties.Resources.icons8_subtract_25;
