@@ -26,7 +26,11 @@ namespace sistemaAlmacen
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Loader load = new Loader();
+            load.ShowDialog();
+            CrudOracle crud = new CrudOracle();
+            crud.ShowDialog();
         }
 
         private void btnConectar_Click(object sender, EventArgs e)
@@ -60,6 +64,16 @@ namespace sistemaAlmacen
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtContraseña_TextChanged(object sender, EventArgs e)
         {
 
         }

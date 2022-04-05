@@ -48,5 +48,10 @@ namespace sistemaAlmacen
         {
 
         }
+
+        private void CrudOracle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

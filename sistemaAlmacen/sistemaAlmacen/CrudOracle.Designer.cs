@@ -44,49 +44,50 @@ namespace sistemaAlmacen
             this.btnExportar_Excel = new System.Windows.Forms.Button();
             this.btnConectar = new System.Windows.Forms.Button();
             this.btnCerrarConexion = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtDireccion
             // 
             this.txtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccion.Location = new System.Drawing.Point(147, 132);
+            this.txtDireccion.Location = new System.Drawing.Point(406, 135);
             this.txtDireccion.Multiline = true;
             this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(242, 24);
+            this.txtDireccion.Size = new System.Drawing.Size(127, 24);
             this.txtDireccion.TabIndex = 2;
             // 
             // txtApellido
             // 
             this.txtApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellido.Location = new System.Drawing.Point(147, 93);
+            this.txtApellido.Location = new System.Drawing.Point(406, 96);
             this.txtApellido.Multiline = true;
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(242, 24);
+            this.txtApellido.Size = new System.Drawing.Size(127, 24);
             this.txtApellido.TabIndex = 3;
             // 
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(147, 50);
+            this.txtNombre.Location = new System.Drawing.Point(406, 53);
             this.txtNombre.Multiline = true;
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(242, 24);
+            this.txtNombre.Size = new System.Drawing.Size(127, 24);
             this.txtNombre.TabIndex = 4;
             // 
             // txtDNI
             // 
             this.txtDNI.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDNI.Location = new System.Drawing.Point(147, 172);
+            this.txtDNI.Location = new System.Drawing.Point(406, 175);
             this.txtDNI.Multiline = true;
             this.txtDNI.Name = "txtDNI";
-            this.txtDNI.Size = new System.Drawing.Size(242, 24);
+            this.txtDNI.Size = new System.Drawing.Size(127, 24);
             this.txtDNI.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 53);
+            this.label1.Location = new System.Drawing.Point(339, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 6;
@@ -95,7 +96,7 @@ namespace sistemaAlmacen
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 96);
+            this.label2.Location = new System.Drawing.Point(339, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 7;
@@ -104,7 +105,7 @@ namespace sistemaAlmacen
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(70, 135);
+            this.label3.Location = new System.Drawing.Point(339, 140);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 8;
@@ -113,7 +114,7 @@ namespace sistemaAlmacen
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(70, 175);
+            this.label4.Location = new System.Drawing.Point(339, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(26, 13);
             this.label4.TabIndex = 9;
@@ -121,15 +122,16 @@ namespace sistemaAlmacen
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(73, 222);
+            this.dataGridView1.Location = new System.Drawing.Point(235, 232);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(645, 206);
+            this.dataGridView1.Size = new System.Drawing.Size(531, 206);
             this.dataGridView1.TabIndex = 10;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(492, 42);
+            this.btnAgregar.Location = new System.Drawing.Point(539, 50);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(106, 32);
             this.btnAgregar.TabIndex = 11;
@@ -149,7 +151,7 @@ namespace sistemaAlmacen
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(492, 96);
+            this.btnEliminar.Location = new System.Drawing.Point(539, 104);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(106, 32);
             this.btnEliminar.TabIndex = 14;
@@ -169,7 +171,7 @@ namespace sistemaAlmacen
             // 
             // btnConectar
             // 
-            this.btnConectar.Location = new System.Drawing.Point(492, 167);
+            this.btnConectar.Location = new System.Drawing.Point(539, 175);
             this.btnConectar.Name = "btnConectar";
             this.btnConectar.Size = new System.Drawing.Size(106, 32);
             this.btnConectar.TabIndex = 16;
@@ -186,11 +188,20 @@ namespace sistemaAlmacen
             this.btnCerrarConexion.Text = "Cerrar Conexion";
             this.btnCerrarConexion.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(220, 450);
+            this.panel1.TabIndex = 18;
+            // 
             // CrudOracle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnCerrarConexion);
             this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.btnExportar_Excel);
@@ -206,8 +217,11 @@ namespace sistemaAlmacen
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.txtDireccion);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CrudOracle";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CrudOracle";
+            this.Load += new System.EventHandler(this.CrudOracle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -231,5 +245,6 @@ namespace sistemaAlmacen
         private System.Windows.Forms.Button btnExportar_Excel;
         private System.Windows.Forms.Button btnConectar;
         private System.Windows.Forms.Button btnCerrarConexion;
+        private System.Windows.Forms.Panel panel1;
     }
 }

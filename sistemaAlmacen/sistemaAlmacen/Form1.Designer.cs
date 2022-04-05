@@ -64,6 +64,7 @@ namespace sistemaAlmacen
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // txtUsuario
             // 
@@ -84,6 +85,7 @@ namespace sistemaAlmacen
             this.txtContraseña.Size = new System.Drawing.Size(217, 20);
             this.txtContraseña.TabIndex = 16;
             this.txtContraseña.UseSystemPasswordChar = true;
+            this.txtContraseña.TextChanged += new System.EventHandler(this.txtContraseña_TextChanged);
             // 
             // label1
             // 
