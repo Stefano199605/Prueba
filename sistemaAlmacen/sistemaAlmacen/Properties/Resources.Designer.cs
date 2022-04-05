@@ -73,6 +73,16 @@ namespace sistemaAlmacen.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_close_25__2_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-close-25 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_login_25 {
             get {
                 object obj = ResourceManager.GetObject("icons8-login-25", resourceCulture);
@@ -106,6 +116,16 @@ namespace sistemaAlmacen.Properties {
         internal static System.Drawing.Bitmap icons8_login_50 {
             get {
                 object obj = ResourceManager.GetObject("icons8-login-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_subtract_25 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-subtract-25", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
