@@ -83,5 +83,23 @@
   <ItemGroup>
     <None Include="Resources\Serpost.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-25 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-25 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-25.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
