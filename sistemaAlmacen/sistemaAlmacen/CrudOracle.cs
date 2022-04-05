@@ -12,7 +12,7 @@ namespace sistemaAlmacen
 {
     public partial class CrudOracle : Form
     {
-        OracleConnection ora = new OracleConnection("Data source=DESPACHO; Password=serpost;user Id=system;");
+        
         public CrudOracle()
         {
             InitializeComponent();
@@ -36,6 +36,11 @@ namespace sistemaAlmacen
         private void btnExportar_Excel_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnConectar_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
