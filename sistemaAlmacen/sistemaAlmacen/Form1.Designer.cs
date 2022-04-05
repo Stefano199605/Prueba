@@ -40,6 +40,7 @@ namespace sistemaAlmacen
             this.btnConectar = new System.Windows.Forms.Button();
             this.btnDesconectar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -115,7 +116,7 @@ namespace sistemaAlmacen
             this.btnIngresar.ForeColor = System.Drawing.SystemColors.Control;
             this.btnIngresar.Image = global::sistemaAlmacen.Properties.Resources.icons8_login_25__2_;
             this.btnIngresar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnIngresar.Location = new System.Drawing.Point(423, 183);
+            this.btnIngresar.Location = new System.Drawing.Point(423, 202);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Padding = new System.Windows.Forms.Padding(3, 0, 0, 0);
             this.btnIngresar.Size = new System.Drawing.Size(115, 39);
@@ -181,12 +182,25 @@ namespace sistemaAlmacen
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.checkBox1.Location = new System.Drawing.Point(423, 163);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(118, 17);
+            this.checkBox1.TabIndex = 25;
+            this.checkBox1.Text = "Mostrar Contraseña";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(646, 262);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnDesconectar);
             this.Controls.Add(this.btnConectar);
@@ -223,6 +237,7 @@ namespace sistemaAlmacen
         private System.Windows.Forms.Button btnConectar;
         private System.Windows.Forms.Button btnDesconectar;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
