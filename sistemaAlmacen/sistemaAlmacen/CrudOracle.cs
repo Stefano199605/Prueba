@@ -21,7 +21,7 @@ namespace sistemaAlmacen
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-
+            Console.WriteLine("Error");
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
