@@ -26,5 +26,15 @@ namespace sistemaAlmacen
         {
 
         }
+
+        private void btnConectar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDesconectar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
