@@ -121,5 +121,11 @@
   <ItemGroup>
     <None Include="Resources\icons8-close-25.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj">
+      <Project>{a0f3390b-35fc-492b-b32b-f56a0473d1ae}</Project>
+      <Name>CapaDatos</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

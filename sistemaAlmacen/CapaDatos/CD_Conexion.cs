@@ -9,12 +9,14 @@ namespace CapaDatos
 {
    public class CD_Conexion
     {
+        
         private OracleConnection conexion = new OracleConnection("Data source=orcl; PASSWORD=123;USER ID=proy;");
         public OracleConnection AbrirConexion()
         {
             if (conexion.State == System.Data.ConnectionState.Closed)
             {
                 conexion.Open();
+               
             }
             return conexion;
         }
