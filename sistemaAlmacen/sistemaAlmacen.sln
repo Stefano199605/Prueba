@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistemaAlmacen", "sistemaAlmacen\sistemaAlmacen.csproj", "{CBAD66F7-30CF-4140-B6FA-15DECBAE900C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "sistemaAlmacen\CapaPresentacion.csproj", "{CBAD66F7-30CF-4140-B6FA-15DECBAE900C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{A0F3390B-35FC-492B-B32B-F56A0473D1AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{114A2F50-6839-477B-B50C-9D14054D411C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{645C2CF8-D9CD-44D5-A2E7-42A416DADC06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{114A2F50-6839-477B-B50C-9D14054D411C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114A2F50-6839-477B-B50C-9D14054D411C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114A2F50-6839-477B-B50C-9D14054D411C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{645C2CF8-D9CD-44D5-A2E7-42A416DADC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{645C2CF8-D9CD-44D5-A2E7-42A416DADC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{645C2CF8-D9CD-44D5-A2E7-42A416DADC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{645C2CF8-D9CD-44D5-A2E7-42A416DADC06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

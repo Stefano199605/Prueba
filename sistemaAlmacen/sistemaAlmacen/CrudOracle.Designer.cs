@@ -42,6 +42,8 @@ namespace sistemaAlmacen
             this.btnModificar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnExportar_Excel = new System.Windows.Forms.Button();
+            this.btnConectar = new System.Windows.Forms.Button();
+            this.btnCerrarConexion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -165,11 +167,32 @@ namespace sistemaAlmacen
             this.btnExportar_Excel.UseVisualStyleBackColor = true;
             this.btnExportar_Excel.Click += new System.EventHandler(this.btnExportar_Excel_Click);
             // 
+            // btnConectar
+            // 
+            this.btnConectar.Location = new System.Drawing.Point(492, 167);
+            this.btnConectar.Name = "btnConectar";
+            this.btnConectar.Size = new System.Drawing.Size(106, 32);
+            this.btnConectar.TabIndex = 16;
+            this.btnConectar.Text = "Conectar";
+            this.btnConectar.UseVisualStyleBackColor = true;
+            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click_1);
+            // 
+            // btnCerrarConexion
+            // 
+            this.btnCerrarConexion.Location = new System.Drawing.Point(651, 172);
+            this.btnCerrarConexion.Name = "btnCerrarConexion";
+            this.btnCerrarConexion.Size = new System.Drawing.Size(106, 32);
+            this.btnCerrarConexion.TabIndex = 17;
+            this.btnCerrarConexion.Text = "Cerrar Conexion";
+            this.btnCerrarConexion.UseVisualStyleBackColor = true;
+            // 
             // CrudOracle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCerrarConexion);
+            this.Controls.Add(this.btnConectar);
             this.Controls.Add(this.btnExportar_Excel);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnModificar);
@@ -206,5 +229,7 @@ namespace sistemaAlmacen
         private System.Windows.Forms.Button btnModificar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnExportar_Excel;
+        private System.Windows.Forms.Button btnConectar;
+        private System.Windows.Forms.Button btnCerrarConexion;
     }
 }

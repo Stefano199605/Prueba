@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OracleClient;
+
 namespace sistemaAlmacen
 {
     public partial class CrudOracle : Form
@@ -41,6 +42,11 @@ namespace sistemaAlmacen
         private void btnConectar_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void btnConectar_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
