@@ -133,6 +133,7 @@ namespace sistemaAlmacen
             this.btnAgregar.TabIndex = 11;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnModificar
             // 
@@ -142,6 +143,7 @@ namespace sistemaAlmacen
             this.btnModificar.TabIndex = 13;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
@@ -151,6 +153,7 @@ namespace sistemaAlmacen
             this.btnEliminar.TabIndex = 14;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnExportar_Excel
             // 
@@ -160,6 +163,7 @@ namespace sistemaAlmacen
             this.btnExportar_Excel.TabIndex = 15;
             this.btnExportar_Excel.Text = "Exportar a Excel";
             this.btnExportar_Excel.UseVisualStyleBackColor = true;
+            this.btnExportar_Excel.Click += new System.EventHandler(this.btnExportar_Excel_Click);
             // 
             // CrudOracle
             // 
