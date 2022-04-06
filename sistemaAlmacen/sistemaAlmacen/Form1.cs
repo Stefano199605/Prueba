@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OracleClient;
 using CapaDatos;
+using NHibernate.Loader;
+
 namespace sistemaAlmacen
 {
     public partial class Form1 : Form
@@ -26,22 +28,14 @@ namespace sistemaAlmacen
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Loader load = new Loader();
-            load.ShowDialog();
-            CrudOracle crud = new CrudOracle();
-            crud.ShowDialog();
+            //this.Hide();
+            //Loader load = new Loader();
+            //load.ShowDialog();
+            //CrudOracle crud = new CrudOracle();
+            //crud.ShowDialog();
         }
 
-        private void btnConectar_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void btnDesconectar_Click(object sender, EventArgs e)
-        {
-            
-        }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {

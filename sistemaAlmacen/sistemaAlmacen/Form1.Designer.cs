@@ -138,7 +138,7 @@ namespace sistemaAlmacen
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Image = global::sistemaAlmacen.Properties.Resources.icons8_close_25__2_;
+            //this.button1.Image = global::sistemaAlmacen.Properties.Resources.icons8_close_25__2_;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(596, 8);
             this.button1.Name = "button1";
@@ -157,7 +157,7 @@ namespace sistemaAlmacen
             this.btnConectar.TabIndex = 22;
             this.btnConectar.Text = "Conectar";
             this.btnConectar.UseVisualStyleBackColor = true;
-            this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
+            //this.btnConectar.Click += new System.EventHandler(this.btnConectar_Click);
             // 
             // btnDesconectar
             // 
@@ -170,7 +170,7 @@ namespace sistemaAlmacen
             this.btnDesconectar.TabIndex = 23;
             this.btnDesconectar.Text = "Desconectar";
             this.btnDesconectar.UseVisualStyleBackColor = true;
-            this.btnDesconectar.Click += new System.EventHandler(this.btnDesconectar_Click);
+            //this.btnDesconectar.Click += new System.EventHandler(this.btnDesconectar_Click);
             // 
             // button2
             // 
@@ -180,7 +180,7 @@ namespace sistemaAlmacen
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Image = global::sistemaAlmacen.Properties.Resources.icons8_subtract_25;
+            //this.button2.Image = global::sistemaAlmacen.Properties.Resources.icons8_subtract_25;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button2.Location = new System.Drawing.Point(551, 8);
             this.button2.Name = "button2";
