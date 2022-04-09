@@ -133,6 +133,16 @@ namespace sistemaAlmacen.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_subtract_25__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-subtract-25 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Serpost {
             get {
                 object obj = ResourceManager.GetObject("Serpost", resourceCulture);
